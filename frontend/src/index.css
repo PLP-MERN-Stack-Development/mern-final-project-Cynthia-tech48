@@ -1,0 +1,75 @@
+/* src/index.css */
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Custom fonts and body styling */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8; /* fallback background */
+  margin: 0;
+}
+
+/* Buttons MOD-style effects */
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Add hover lift effect for buttons */
+a:hover {
+  transform: translateY(-2px);
+}
+
+/* Header drop shadow effect */
+h1, h2, h3 {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Form inputs */
+input, select, textarea {
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #3b82f6; /* Tailwind blue-500 */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Navbar styling */
+nav {
+  background-color: #1e40af; /* Tailwind blue-800 */
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* ===== Custom Message Box for Home Page ===== */
+.home-message {
+  max-width: 700px;          /* Limit the width for readability */
+  background-color: #ffffff; /* White card */
+  border-radius: 12px;       /* Rounded corners */
+  padding: 30px 25px;        /* Spacing inside */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12); /* Soft layered shadow */
+  margin: 20px auto;         /* Center horizontally with top/bottom margin */
+  font-size: 1.2rem;         /* Readable font size */
+  line-height: 1.7;          /* Spacing between lines */
+  color: #374151;            /* Dark gray text */
+  text-align: center;        /* Center the text inside the box */
+}
