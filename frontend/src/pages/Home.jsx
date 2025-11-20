@@ -7,12 +7,12 @@ export default function Home() {
 
       {/* TITLE */}
       <h1 className="text-5xl font-extrabold text-blue-700 mb-6 text-center tracking-tight drop-shadow-lg">
-        Welcome to MediReach
+        Welcome to MedReach
       </h1>
 
       {/* MESSAGE BOX */}
       <div className="home-message p-8 bg-white rounded-xl shadow-lg max-w-3xl text-center text-gray-700 leading-relaxed text-lg">
-        MediReach helps you easily connect with healthcare providers, 
+        MedReach helps you easily connect with healthcare providers, 
         book appointments, receive reminders, and manage prescriptions — 
         all in one simple and modern platform designed for you.
       </div>
