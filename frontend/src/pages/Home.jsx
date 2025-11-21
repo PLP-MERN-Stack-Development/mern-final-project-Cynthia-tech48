@@ -3,7 +3,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex flex-col items-center pt-24 px-4">
 
       {/* MAIN LOGO */}
-      <img src="../photos/logo.jpg" alt="MediReach" className="h-36 w-36 mb-8" />
+      <img src="/photos/logo.jpg" alt="MedReach" className="h-36 w-36 mb-8" />
 
       {/* TITLE */}
       <h1 className="text-5xl font-extrabold text-blue-700 mb-6 text-center tracking-tight drop-shadow-lg">
